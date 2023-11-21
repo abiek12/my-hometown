@@ -145,7 +145,7 @@ body {
   transition: all 0.4s;
 }
 .img-container:hover img {
-  transform: scale(1.1);
+  transform: scale(1.06);
   overflow: hidden;
   transition: all 0.3s linear;
   box-shadow: inset -6px -1px 32px 0px rgba(0, 0, 0, 0.75);

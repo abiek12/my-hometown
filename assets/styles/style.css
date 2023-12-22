@@ -24,6 +24,9 @@ body {
   overflow-x: hidden;
   background-position: center;
   height: 100vh;
+
+  /* parallax */
+  background-attachment: fixed;
 }
 .hero-title {
   text-align: center;
@@ -33,6 +36,7 @@ body {
   transform: translate(-50%, -50%);
   color: white;
   z-index: 2;
+  /* mix-blend-mode:screen; */
 }
 .hero-section::before {
   content: "";
@@ -54,6 +58,14 @@ body {
   overflow: hidden;
   z-index: 2;
 }
+.header-color {
+  color: rgba(255, 255, 255, 0.7);
+  transition: 0.5s;
+}
+.header-color:hover {
+  color: #fff;
+}
+
 .btn-custom {
   font-family: "Montserrat";
   background: var(--sec-color);
